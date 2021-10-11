@@ -5,6 +5,7 @@ import createShopifyAuth, { verifyRequest } from "@shopify/koa-shopify-auth";
 import Shopify, { ApiVersion } from "@shopify/shopify-api";
 import Koa from "koa";
 import next from "next";
+import cors from "cors";
 import Router from "koa-router";
 
 dotenv.config();
